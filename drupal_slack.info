@@ -1,0 +1,7 @@
+name = Drupal Slack
+description = Slack integration
+package = SLACK
+version = 7.x-1.0
+core = 7.x
+
+files[] = drupal_slack.module

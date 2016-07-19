@@ -1,0 +1,14 @@
+<?php
+/**
+ * @file
+ */
+
+/**
+ * Implements hook_uninstall();
+ */
+function drupal_slack_uninstall() {
+  variable_del('ds_channel');
+  variable_del('ds_domain');
+  variable_del('ds_msg_number');
+  variable_del('ds_token');
+}
